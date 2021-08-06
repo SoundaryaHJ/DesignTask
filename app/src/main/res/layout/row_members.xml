@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/edit"
+        android:text="Member 1"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/edit"
+        android:text="Member 2"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox3"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/edit"
+        android:text="Member 3"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox4"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/edit"
+        android:text="Member 4"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox5"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/edit"
+        android:text="Member 5"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox6"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/edit"
+        android:text="Member 6"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox7"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/edit"
+        android:text="Member 7"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/compose_msg"
+        android:layout_width="208dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="20dp"
+        android:text="compose message"
+        app:backgroundTint="@color/button" />
+
+</LinearLayout>
+
+

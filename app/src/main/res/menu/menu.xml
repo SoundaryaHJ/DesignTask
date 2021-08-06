@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/alerts"
+            android:title="ALERTS"
+            android:icon="@drawable/ic_time"/>
+
+        <item android:id="@+id/messaging"
+            android:title="MESSAGING"
+            android:icon="@drawable/ic_mes"/>
+
+        <item android:id="@+id/status"
+            android:title="STATUS BOAED"
+            android:icon="@drawable/ic_chat"/>
+
+        <item android:id="@+id/live"
+            android:title="LIVE STREAMS"
+            android:icon="@drawable/ic_live"/>
+
+            <item android:id="@+id/profile"
+                android:title="YOUR PROFILE"
+                android:icon="@drawable/ic_account"/>
+
+            <item android:id="@+id/settings"
+                android:title="SETTINGS"
+                android:icon="@drawable/ic_settings"/>
+
+            <item android:id="@+id/info"
+                android:title="INFO"
+                android:icon="@drawable/ic_info"/>
+
+
+    </group>
+</menu>
